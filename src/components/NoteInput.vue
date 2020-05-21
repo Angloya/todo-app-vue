@@ -129,9 +129,9 @@ export default {
     }
     .edit-panel__wrapper {
       flex-direction: column-reverse;
-      .bottom-edit-panel__btn.delete-btn {
-        margin-right: 0;
-      }
+    }
+    .bottom-edit-panel__btn {
+      margin: 5px;
     }
     .edit-panel__btn {
       margin: 10px 0 0 0;

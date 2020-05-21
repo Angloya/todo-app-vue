@@ -13,9 +13,9 @@
       </span>
     </div>
     <div class="todo-item__btn">
-      <span @click="onMove()" class="todo-item__btn"><i class="mdi mdi-file-move" /></span>
-      <span @click="onOpen()" class="todo-item__btn"><i class="mdi mdi-open-in-new" /></span>
-      <span @click="onDelete()" class="todo-item__btn"><i class="mdi mdi-close" /></span>
+      <span @click="onMove()" title="переместить в другую папку" class="btn__icon"><i class="mdi mdi-file-move" /></span>
+      <span @click="onOpen()" title="открыть в новом окне" class="btn__icon"><i class="mdi mdi-open-in-new" /></span>
+      <span @click="onDelete()" title="удалить" class="btn__icon"><i class="mdi mdi-close" /></span>
     </div>
   </div>
 </template>
@@ -86,6 +86,9 @@ export default {
     .note-item {
       width: 90%;
       margin: 10px 0 0 0;
+    }
+    .btn__icon {
+      font-size: 23px;
     }
   }
 </style>
