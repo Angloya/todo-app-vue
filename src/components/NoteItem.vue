@@ -80,6 +80,7 @@ export default {
     },
     onReset() {
       this.showAll = true
+      this.isOnlyChecked = false
     },
     closeInput() {
       this.showInput = false
